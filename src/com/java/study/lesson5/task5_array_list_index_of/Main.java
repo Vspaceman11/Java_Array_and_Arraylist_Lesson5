@@ -9,10 +9,10 @@ public class Main {
         teachersList.add("Rosa Sergeevna");
         teachersList.add("Margarita Vyacheslavovna");
         teachersList.add("Tatyana Nikolaevna");
-        teachersList.add("");
+        teachersList.add("Maxim Viktorovich");
 
         System.out.println("The worst teacher is: " + teachersList.indexOf("Tatyana Ivanovna"));
-        System.out.println("The best teacher is: " + teachersList.indexOf("Margarita Vyacheslavovna"));
+        System.out.println("The best teacher is: " + teachersList.indexOf("Maxim Viktorovich"));
         System.out.println(teachersList);
     }
 }
